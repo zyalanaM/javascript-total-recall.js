@@ -2,8 +2,8 @@
 
 // 1. How do we assign a value to a variable? 
 //With the assignment operator.
-let z = 3;
-console.log(z)
+//let z = 3;
+//console.log(z)
 // 2. How do we change the value of a. 
 //By changing LET.
 
@@ -23,7 +23,7 @@ console.log(z)
 // 6. What percentage of time should be spent thinking about how you're going to solve a problem vs actually typing in code to solve it?
 // you should spend over half the time planning (over 60%), the time should be spent in solving the actual coding should take less time.
 
-=====================Strings==================================
+//=====================Strings==================================
   
 // 1. Create a variable called firstVariable?
 // let firstVariable;
@@ -39,7 +39,7 @@ console.log(z)
 
 // 5. Change the value of secondVariable to any string?
   // secondVariable = "Go Buckeyes";
-
+//console.log(secondVariable);
 // 6. What is the value of firstVariable? 
 // console.log(firstvariable);
   
@@ -48,4 +48,25 @@ console.log(z)
 
 // 8. let yourName = "Phyllis"
 // let greeting = "Hello, my name is " + yourName;
+//console.log(greeting);
+// =====================BOOLEAN==================================
+
+// Using the provided variable definitions, replace the blanks so that all log statements print true in the console. Answers should be all be valid JS syntax and not weird things that don't make sense but happen to print true to the console?
+const a = 4;
+const b = 53;
+const c = 57;
+const d = 16;
+const e = 'Kevin';
+
+//console.log(a != b);
+//console.log(c != d);
+//console.log('Name' == 'Name');
+// FOR THE NEXT TWO, USE ONLY && OR ||
+//console.log(true || false);
+//console.log(false && false && false && false && false || true);
+//console.log(false == false)
+//console.log(e == 'Kevin');
+//console.log(a < b != c); // note: a < b < c is NOT CORRECT (and is not a valid JS expression, think about using other math operations)
+//console.log(a == a != d); // note: the answer is a simple arithmetic equation, not something "weird"
+//console.log(48 == '48');
 
