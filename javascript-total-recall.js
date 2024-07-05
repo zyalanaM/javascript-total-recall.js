@@ -24,7 +24,7 @@
 // you should spend over half the time planning (over 60%), the time should be spent in solving the actual coding should take less time.
 
 //=====================Strings==================================
-  
+
 // 1. Create a variable called firstVariable?
 // let firstVariable;
 
@@ -38,11 +38,11 @@
 // let secondVariable = 3;
 
 // 5. Change the value of secondVariable to any string?
-  // secondVariable = "Go Buckeyes";
+// secondVariable = "Go Buckeyes";
 //console.log(secondVariable);
 // 6. What is the value of firstVariable? 
 // console.log(firstvariable);
-  
+
 // 7. Create a variable called yourNameand set it equal to your name as a string. Then, write an expression that takes the string "Hello, my name is " and the variable yourNameso that it returns a new string with them concatenated.
 // ex: Hello, my name is Jean Valjean
 
@@ -69,4 +69,30 @@ const e = 'Kevin';
 //console.log(a < b != c); // note: a < b < c is NOT CORRECT (and is not a valid JS expression, think about using other math operations)
 //console.log(a == a != d); // note: the answer is a simple arithmetic equation, not something "weird"
 //console.log(48 == '48');
+================================THE FARM==========================================================================
+//Declare a variable animal. Set it to be either "cow" or something else
+//let animal = "cow";
+
+//Write code that will print out "mooooo" if the it is equal to cow
+let animal = "cow";
+
+if (animal === "cat") {
+  console.log("moooo");
+} else {
+  console.log("Hey! You're not a cow.");
+}
+
+
+===================================DRIVERS ED=================================================================
+//Change your code so that if the variable animalis anything other than a cow, it will print "Hey! You're not a cow."
+let personage = 7;
+
+if (personage >= 16){
+  console.localStorage("Here are the keys!");
+} else {
+  console.localStorage("Sorry, you're too young.");
+}
+
+
+
 
