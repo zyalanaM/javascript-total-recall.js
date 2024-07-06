@@ -69,30 +69,75 @@ const e = 'Kevin';
 //console.log(a < b != c); // note: a < b < c is NOT CORRECT (and is not a valid JS expression, think about using other math operations)
 //console.log(a == a != d); // note: the answer is a simple arithmetic equation, not something "weird"
 //console.log(48 == '48');
-================================THE FARM==========================================================================
+//================================THE FARM==========================================================================
 //Declare a variable animal. Set it to be either "cow" or something else
 //let animal = "cow";
 
 //Write code that will print out "mooooo" if the it is equal to cow
-let animal = "cow";
+//let animal = "cow";
 
-if (animal === "cat") {
-  console.log("moooo");
-} else {
-  console.log("Hey! You're not a cow.");
-}
+//if (animal === "cat") {
+// console.log("moooo");
+//} else {
+//  console.log("Hey! You're not a cow.");
+//}
 
 
-===================================DRIVERS ED=================================================================
+//===================================DRIVERS ED=================================================================
 //Change your code so that if the variable animalis anything other than a cow, it will print "Hey! You're not a cow."
-let personage = 7;
+//let personage = 7;
 
-if (personage >= 16){
-  console.localStorage("Here are the keys!");
-} else {
-  console.localStorage("Sorry, you're too young.");
+//if (personage >= 16){
+// console.localStorage("Here are the keys!");
+//} else {
+// console.localStorage("Sorry, you're too young.");
+//}
+//=======================================THE BASICS=========================================================
+//Write a loop that will print out all the numbers from 0 to 10, inclusive
+
+//for (let i = 0; i < 11; i++) {
+// console.log(i)
+//}
+
+//Write a loop that will print out all the numbers from 10 up to and including 400
+
+//for (i = 10; i < 401; i++) {
+// console.log(i)
+//}
+
+//Write a loop that will print out every third number starting with 12 and going no higher than 4000
+//for (let i=12; i<=4000; i+=3) {
+//    console.log(i);
+//}
+
+//===============================GET EVEN===============================================================
+
+//Print out the numbers that are within the range of 1 - 100
+//for (i=1; i<=100; i++) {
+//    console.log(i, "is even");
+//}
+
+//===================================Give me Five============================================
+
+//For the numbers 0 - 100, print out "I found a number. High five!" if the number is a multiple of five
+
+//const str = "I found a number. High five!";
+//console.log(str)
+
+//const str = "I found a number. Three is a crowd";
+//console.log(str)
+
+//=============================SAVINGS ACCOUT======================================================
+//Write code that will save the sum of all the numbers between 1 - 10 to a variable called  bank_account.
+let bank_account = 0;
+for (i = 1; i <= 10; i += 2); {
+    sum += i;
+//console.log(sum)
 }
 
+//You got a bonus! Your pay is now doubled each week. Write code that will save the sum of all the numbers between 1 - 100 multiplied by 2.
 
-
-
+let bonus = 0;
+for (i = 1; i <= 100; i / 2);{
+    sum += i;
+} //console.log(sum)
