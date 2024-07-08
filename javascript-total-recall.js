@@ -129,15 +129,135 @@ const e = 'Kevin';
 
 //=============================SAVINGS ACCOUT======================================================
 //Write code that will save the sum of all the numbers between 1 - 10 to a variable called  bank_account.
-let bank_account = 0;
-for (i = 1; i <= 10; i += 2); {
-    sum += i;
+//let bank_account = 0;
+//for (i = 1; i <= 10; i += 2); {
+//   sum += i;
 //console.log(sum)
-}
+//}
 
 //You got a bonus! Your pay is now doubled each week. Write code that will save the sum of all the numbers between 1 - 100 multiplied by 2.
 
-let bonus = 0;
-for (i = 1; i <= 100; i / 2);{
-    sum += i;
-} //console.log(sum)
+//let bonus = 0;
+//for (i = 1; i <= 100; i / 2);{
+//   sum += i;
+//} //console.log(sum)
+
+//===============================ARRAYS AND CONTROL FLOW======================================================
+//==========================================TALK ABOUT IT============================================
+//1. What are the things in an array called?
+//CONST, variable, value and strings.
+
+//2. Do Arrays guarantee those things will be in order?
+// yes
+
+//3.What real-life thing could you model with an array?
+//items in a shopping cart.
+
+//----------------------------Easy Does It------------------------------------------------------
+//1. Create an array that contains three quotes and store it in a variable called quotes
+//const quotes =  ["easy does it", "smile", "be nice"];
+
+//=============================Accessing Elements==========================================================
+//const randomThings = [1, 10, "Hello", true];
+
+//1. How do you access the 1st element in the array?
+//let randomthings = randomThings[0];
+//console.log(randomThings);
+
+//2. Change the value of "Hello" to "World"
+//const greeting = ["Hello"];
+//greeting[0] = "World";
+//console.log(greeting);
+//3. Check the value of the array to make sure it updated the array. How? Why, yes! console.log();
+
+//================================changing Values==================================================================
+
+const ourClass = ["Salty", "Zoom", "Sardine", "Slack", "Github"]
+
+//1. What would you write to access the 3rd element of the array? //console.log(ourClass[2]);
+
+//2. Change the value of "Github" to "Octocat"
+//Add a new element, "Cloud City" to the array
+//ourClass[4] = "Octocat";
+//console.log(ourClass);
+ourClass.push("Cloud City");
+console.log("ourClass")
+
+//--------------------------------------------MIX IT UP-------------------------------------------------------
+const myArray = [5, 10, 500, 20]
+myArray.push("a")
+
+
+
+
+
+
+
+
+//-------------------------------------------------FUNCTIONS------------------------------------------------
+
+const printCool = (argument) => {
+    return argument + "is cool";
+};
+console.log(printCool("Captain Reynolds"));
+
+const calculateCube = (singleNumber) => {
+    return singleNumber + singleNumber + singleNumber;
+};
+console.log(calculateCube(5));
+
+const isAvowel = (character) => {
+    if (character === "a" || character === "e" || character === "o" || character == "u" || character === "u") {
+        return true;
+    } else {
+        return false;
+    }
+};
+console.log(isAvowel("e"));
+
+function lengths(array) {
+    return array.map(str => str.length);
+}
+console.log(lengths(['Hank', 'Hippopalous']));
+
+//======================GET MULTIPLE lENGTHS====================================================
+
+const getMultipleLengths = (strArr) => {
+    const getMultipleLengthArray = [];
+    for (f = 0; f < strArr.length; f++) {
+        getMultipleLengthArray.push(strArr[f].length);
+    };
+    return getMultipleLengthArray;
+}
+console.log(getMultipleLengths(["hello", "what", "is", "up", "dude"]));
+
+const maxofThree = (n1, n2, n3) => {
+    const threeNumArray = [n1, n2, n3];
+    threeNumArray.sort(function (a, b) { return a - b });
+    return threeNumArray[2];
+};
+console.log(maxofThree(6, 9, 1))
+
+function longest(str) {
+
+    return str.sort((a, b) => b.length - a.length)[0]
+}
+
+console.log(longest(["BoJack", "Princess", "Diane", "a", "Max", "Peanutbutter", "big", "Todd"]));
+
+const user =
+{
+    name: "Phyllis",
+    email: "phyllisstewart@gmail.com",
+    age: 44,
+    purchased: [],
+};
+user.email = "peacock@yahoo.com";
+user.age++;
+user['location'] = "anywhere";
+user.purchased.push("carbs");
+user.purchased.push("peace of mind")
+user.purchased.push("Merino jodhpur")
+
+console.log(user);
+console.log("Merino jodhpur");
