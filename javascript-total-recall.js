@@ -187,11 +187,54 @@ console.log("ourClass")
 const myArray = [5, 10, 500, 20]
 myArray.push("a")
 
+//====================================biggie small=======================================================
+
+//=======================================monkey in the middle=============================================
 
 
+//===================================whats in your closet===================================================
+const kristynsCloset = [
+    "left shoe",
+    "cowboy boots",
+    "right sock",
+    "Per Scholas hoodie",
+    "green pants",
+    "yellow knit hat",
+    "marshmallow peeps"
+];
 
+// Thom's closet is more complicated. Check out this nested data structure!!
+const thomsCloset = [
+    [
+        // These are Thom's shirts
+        "grey button-up",
+        "dark grey button-up",
+        "light blue button-up",
+        "blue button-up",
+    ], [
+        // These are Thom's pants
+        "grey jeans",
+        "jeans",
+        "PJs"
+    ], [
+        // Thom's accessories
+        "wool mittens",
+        "wool scarf",
+        "raybans"
+    ]
+];
 
-
+console.log("Kristyn is rocking that" + kristynsCloset[3] + "today!");
+kristynsCloset.splice(5, 0, "raybans");
+console.log(kristynsCloset)
+kristynsCloset[5] = "stained knit hat";
+console.log(kristynsCloset)
+thomsCloset[0][0];
+thomsCloset[1][1];
+thomsCloset[2][1];
+console.log("Thom is looking fierce in a grey button-up,jeans and wool scarf");
+thomsCloset[1][2] = "Footie Pajamas";
+console.log(thomsCloset)
 
 
 //-------------------------------------------------FUNCTIONS------------------------------------------------
@@ -220,6 +263,59 @@ function lengths(array) {
 }
 console.log(lengths(['Hank', 'Hippopalous']));
 
+//=====================================OBJECTS==============================================================
+const user =
+{
+    name: "Phyllis",
+    email: "phyllisstewart@gmail.com",
+    age: 44,
+    purchased: [],
+};
+user.email = "peacock@yahoo.com";
+user.age++;
+user['location'] = "anywhere";
+user.purchased.push("carbs");
+user.purchased.push("peace of mind")
+user.purchased.push("Merino jodhpur")
+
+console.log(user);
+console.log("Merino jodhpur");
+user.friend = {
+    name: "Grace Hopper",
+    age: 85,
+    location: "USA",
+    purchased: []
+}
+console.log(user)
+
+user.friend = {
+    name: "Grace Hopper",
+    age: 85,
+    location: "USA",
+    purchased: []
+}
+console.log(user)
+
+///////////Remember that you can add an object to an existing object in the///////////////////////
+///////////same way that you can add any new property/value pair.------------------------------------
+
+console.log(user.friend)
+console.log(user.friend.name)
+console.log(user.friend.location)
+user.friend.age = 55
+
+console.log(user.friend)
+user.friend.purchased.push("The One Ring")
+user.friend.purchased.push("A latte")
+console.log(user.friend)
+console.log(user.friend.purchased[1])
+//===============================================LOOPS=======================================================
+for (let i = [3]; i < user.purchased; i++) {
+    console.log(user.purchased);
+}
+for (let i = [3]; i < user.friend.purchased; i++) {
+    console.log(user.friend.purchased);
+}
 //======================GET MULTIPLE lENGTHS====================================================
 
 const getMultipleLengths = (strArr) => {
@@ -245,19 +341,45 @@ function longest(str) {
 
 console.log(longest(["BoJack", "Princess", "Diane", "a", "Max", "Peanutbutter", "big", "Todd"]));
 
-const user =
-{
-    name: "Phyllis",
-    email: "phyllisstewart@gmail.com",
-    age: 44,
-    purchased: [],
-};
-user.email = "peacock@yahoo.com";
-user.age++;
-user['location'] = "anywhere";
-user.purchased.push("carbs");
-user.purchased.push("peace of mind")
-user.purchased.push("Merino jodhpur")
+//=====================LOOPS=========================================================================
+userUpdate = user
+user.age = user.age + 1
 
-console.log(user);
-console.log("Merino jodhpur");
+console.log(user)
+console.log(user.name.toUpperCase())
+
+user.friend = {
+    name: "Grace Hopper",
+    age: 85,
+    location: "USA",
+    purchased: []
+}
+console.log(user)
+
+///////////Remember that you can add an object to an existing object in the///////////////////////
+///////////same way that you can add any new property/value pair.------------------------------------
+
+console.log(user.friend)
+console.log(user.friend.name)
+console.log(user.friend.location)
+user.friend.age = 55
+
+console.log(user.friend)
+user.friend.purchased.push("The One Ring")
+user.friend.purchased.push("A latte")
+console.log(user.friend)
+console.log(user.friend.purchased[1])
+
+for (let i = [3]; i < user.purchased; i++) {
+    console.log(user.purchased);
+}
+for (let i = [3]; i < user.friend.purchased; i++) {
+    console.log(user.friend.purchased);
+}
+
+userUpdate = user
+user.age = user.age + 1
+
+console.log(user)
+console.log(user.name.toUpperCase())
+console.log(user, name.upperCase)
