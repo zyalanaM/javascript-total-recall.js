@@ -52,11 +52,11 @@
 // =====================BOOLEAN==================================
 
 // Using the provided variable definitions, replace the blanks so that all log statements print true in the console. Answers should be all be valid JS syntax and not weird things that don't make sense but happen to print true to the console?
-const a = 4;
-const b = 53;
-const c = 57;
-const d = 16;
-const e = 'Kevin';
+//const a = 4;
+//const b = 53;
+//const c = 57;
+//const d = 16;
+//const e = 'Kevin';
 
 //console.log(a != b);
 //console.log(c != d);
@@ -172,7 +172,7 @@ const e = 'Kevin';
 
 //================================changing Values==================================================================
 
-const ourClass = ["Salty", "Zoom", "Sardine", "Slack", "Github"]
+//const ourClass = ["Salty", "Zoom", "Sardine", "Slack", "Github"]
 
 //1. What would you write to access the 3rd element of the array? //console.log(ourClass[2]);
 
@@ -180,206 +180,223 @@ const ourClass = ["Salty", "Zoom", "Sardine", "Slack", "Github"]
 //Add a new element, "Cloud City" to the array
 //ourClass[4] = "Octocat";
 //console.log(ourClass);
-ourClass.push("Cloud City");
-console.log("ourClass")
+//ourClass.push("Cloud City");
+//console.log("ourClass")
 
 //--------------------------------------------MIX IT UP-------------------------------------------------------
-const myArray = [5, 10, 500, 20]
-myArray.push("a")
+//const myArray = [5, 10, 500, 20]
+//myArray.push("a")
 
 //====================================biggie small=======================================================
+//if ((num >= 100) && (num <= 100)); {        // logical condition
+//num = "littlenumber.";               // executed if condition is true
+//} else {                                // else block is option
+//num = "littlenumber";
+//}     
+//console.log("littlenumber");
 
+//if ((num >= 100) && (num <= 100)); {        // logical condition
+//  num = "bignumber.";               // executed if condition is true
+// } else {                                // else block is option
+//num = "bignumber";
+// }     
+//console.log("bignumber");
 //=======================================monkey in the middle=============================================
+if (littlenum -= 5); {
+    littlenum -= 5;
+}
+//console.log() little number if the number entered is less than 5.
+
 
 
 //===================================whats in your closet===================================================
-const kristynsCloset = [
-    "left shoe",
-    "cowboy boots",
-    "right sock",
-    "Per Scholas hoodie",
-    "green pants",
-    "yellow knit hat",
-    "marshmallow peeps"
-];
+//const kristynsCloset = [
+//   "left shoe",
+//   "cowboy boots",
+//   "right sock",
+//  "Per Scholas hoodie",
+//  "green pants",
+//   "yellow knit hat",
+//   "marshmallow peeps"
+//];
 
 // Thom's closet is more complicated. Check out this nested data structure!!
-const thomsCloset = [
-    [
-        // These are Thom's shirts
-        "grey button-up",
-        "dark grey button-up",
-        "light blue button-up",
-        "blue button-up",
-    ], [
-        // These are Thom's pants
-        "grey jeans",
-        "jeans",
-        "PJs"
-    ], [
-        // Thom's accessories
-        "wool mittens",
-        "wool scarf",
-        "raybans"
-    ]
-];
+//const thomsCloset = [
+[
+    // These are Thom's shirts
+    //"grey button-up",
+    //"dark grey button-up",
+    //"light blue button-up",
+    //"blue button-up",
+    //], [
+    // These are Thom's pants
+    //      "grey jeans",
+    //       "jeans",
+    //        "PJs"
+    //    ], [
+    // Thom's accessories
+    //       "wool mittens",
+    //       "wool scarf",
+    //        "raybans"
+]
+//];
 
-console.log("Kristyn is rocking that" + kristynsCloset[3] + "today!");
-kristynsCloset.splice(5, 0, "raybans");
-console.log(kristynsCloset)
-kristynsCloset[5] = "stained knit hat";
-console.log(kristynsCloset)
-thomsCloset[0][0];
-thomsCloset[1][1];
-thomsCloset[2][1];
-console.log("Thom is looking fierce in a grey button-up,jeans and wool scarf");
-thomsCloset[1][2] = "Footie Pajamas";
-console.log(thomsCloset)
+//console.log("Kristyn is rocking that" + kristynsCloset[3] + "today!");
+//kristynsCloset.splice(5, 0, "raybans");
+//console.log(kristynsCloset)
+//kristynsCloset[5] = "stained knit hat";
+//console.log(kristynsCloset)
+//thomsCloset[0][0];
+//thomsCloset[1][1];
+//thomsCloset[2][1];
+//console.log("Thom is looking fierce in a grey button-up,jeans and wool scarf");
+//thomsCloset[1][2] = "Footie Pajamas";
+//console.log(thomsCloset)
 
 
 //-------------------------------------------------FUNCTIONS------------------------------------------------
 
-const printCool = (argument) => {
-    return argument + "is cool";
-};
-console.log(printCool("Captain Reynolds"));
+//const printCool = (argument) => {
+//    return argument + "is cool";
+//};
+//console.log(printCool("Captain Reynolds"));
 
-const calculateCube = (singleNumber) => {
-    return singleNumber + singleNumber + singleNumber;
-};
-console.log(calculateCube(5));
+//const calculateCube = (singleNumber) => {
+//   return singleNumber + singleNumber + singleNumber;
+//};
+//console.log(calculateCube(5));
 
-const isAvowel = (character) => {
-    if (character === "a" || character === "e" || character === "o" || character == "u" || character === "u") {
-        return true;
-    } else {
-        return false;
-    }
-};
-console.log(isAvowel("e"));
+//onst isAvowel = (character) => {
+//if (character === "a" || character === "e" || character === "o" || character == "u" || character === "u") {
+//     return true;
+//  } else {
+//       return false;
+//  }
+//};
+//console.log(isAvowel("e"));
 
-function lengths(array) {
-    return array.map(str => str.length);
-}
-console.log(lengths(['Hank', 'Hippopalous']));
+//function lengths(array) {
+//   return array.map(str => str.length);
+//}
+//console.log(lengths(['Hank', 'Hippopalous']));
 
 //=====================================OBJECTS==============================================================
-const user =
-{
-    name: "Phyllis",
-    email: "phyllisstewart@gmail.com",
-    age: 44,
-    purchased: [],
-};
-user.email = "peacock@yahoo.com";
-user.age++;
-user['location'] = "anywhere";
-user.purchased.push("carbs");
-user.purchased.push("peace of mind")
-user.purchased.push("Merino jodhpur")
+//const user =
+//{
+//  name: "Phyllis",
+//  email: "phyllisstewart@gmail.com",
+//  age: 44,
+//  purchased: [],
+//};
+//user.email = "peacock@yahoo.com";
+//user.age++;
+//user['location'] = "anywhere";
+//user.purchased.push("carbs");
+//user.purchased.push("peace of mind")
+//user.purchased.push("Merino jodhpur")
 
-console.log(user);
-console.log("Merino jodhpur");
-user.friend = {
-    name: "Grace Hopper",
-    age: 85,
-    location: "USA",
-    purchased: []
-}
-console.log(user)
+//console.log(user);
+//console.log("Merino jodhpur");
+//user.friend = {
+//  name: "Grace Hopper",
+//  age: 85,
+//  location: "USA",
+// purchased: []
+//}
+//console.log(user)
 
-user.friend = {
-    name: "Grace Hopper",
-    age: 85,
-    location: "USA",
-    purchased: []
-}
-console.log(user)
+//user.friend = {
+//  name: "Grace Hopper",
+//   age: 85,
+//  location: "USA",
+//   purchased: []
+//}
+//console.log(user)
 
 ///////////Remember that you can add an object to an existing object in the///////////////////////
 ///////////same way that you can add any new property/value pair.------------------------------------
 
-console.log(user.friend)
-console.log(user.friend.name)
-console.log(user.friend.location)
-user.friend.age = 55
+//console.log(user.friend)
+//console.log(user.friend.name)
+//console.log(user.friend.location)
+//user.friend.age = 55
 
-console.log(user.friend)
-user.friend.purchased.push("The One Ring")
-user.friend.purchased.push("A latte")
-console.log(user.friend)
-console.log(user.friend.purchased[1])
+//console.log(user.friend)
+//user.friend.purchased.push("The One Ring")
+//user.friend.purchased.push("A latte")
+//console.log(user.friend)
+//console.log(user.friend.purchased[1])
 //===============================================LOOPS=======================================================
-for (let i = [3]; i < user.purchased; i++) {
-    console.log(user.purchased);
-}
-for (let i = [3]; i < user.friend.purchased; i++) {
-    console.log(user.friend.purchased);
-}
+//for (let i = [3]; i < user.purchased; i++) {
+//  console.log(user.purchased);
+//}
+//for (let i = [3]; i < user.friend.purchased; i++) {
+//   console.log(user.friend.purchased);
+//}
 //======================GET MULTIPLE lENGTHS====================================================
 
-const getMultipleLengths = (strArr) => {
-    const getMultipleLengthArray = [];
-    for (f = 0; f < strArr.length; f++) {
-        getMultipleLengthArray.push(strArr[f].length);
-    };
-    return getMultipleLengthArray;
-}
-console.log(getMultipleLengths(["hello", "what", "is", "up", "dude"]));
+//const getMultipleLengths = (strArr) => {
+//  const getMultipleLengthArray = [];
+//    for (f = 0; f < strArr.length; f++) {
+//       getMultipleLengthArray.push(strArr[f].length);
+//   };
+//   return getMultipleLengthArray;
+//}
+//console.log(getMultipleLengths(["hello", "what", "is", "up", "dude"]));
 
-const maxofThree = (n1, n2, n3) => {
-    const threeNumArray = [n1, n2, n3];
-    threeNumArray.sort(function (a, b) { return a - b });
-    return threeNumArray[2];
-};
-console.log(maxofThree(6, 9, 1))
+//const maxofThree = (n1, n2, n3) => {
+//   const threeNumArray = [n1, n2, n3];
+//   threeNumArray.sort(function (a, b) { return a - b });
+//   return threeNumArray[2];
+//}
+//console.log(maxofThree(6, 9, 1))
 
-function longest(str) {
+//function longest(str) {
 
-    return str.sort((a, b) => b.length - a.length)[0]
-}
+//   return str.sort((a, b) => b.length - a.length)[0]
+//}
 
-console.log(longest(["BoJack", "Princess", "Diane", "a", "Max", "Peanutbutter", "big", "Todd"]));
+//console.log(longest(["BoJack", "Princess", "Diane", "a", "Max", "Peanutbutter", "big", "Todd"]));
 
 //=====================LOOPS=========================================================================
-userUpdate = user
-user.age = user.age + 1
+//userUpdate = user
+//user.age = user.age + 1
 
-console.log(user)
-console.log(user.name.toUpperCase())
+//console.log(user)
+//console.log(user.name.toUpperCase())
 
-user.friend = {
-    name: "Grace Hopper",
-    age: 85,
-    location: "USA",
-    purchased: []
-}
-console.log(user)
+//user.friend = {
+//  name: "Grace Hopper",
+//   age: 85,
+//   location: "USA",
+//   purchased: []
+//}
+//console.log(user)
 
 ///////////Remember that you can add an object to an existing object in the///////////////////////
 ///////////same way that you can add any new property/value pair.------------------------------------
 
-console.log(user.friend)
-console.log(user.friend.name)
-console.log(user.friend.location)
-user.friend.age = 55
+//console.log(user.friend)
+//console.log(user.friend.name)
+//console.log(user.friend.location)
+//user.friend.age = 55
 
-console.log(user.friend)
-user.friend.purchased.push("The One Ring")
-user.friend.purchased.push("A latte")
-console.log(user.friend)
-console.log(user.friend.purchased[1])
+//console.log(user.friend)
+//user.friend.purchased.push("The One Ring")
+//user.friend.purchased.push("A latte")
+//console.log(user.friend)
+//console.log(user.friend.purchased[1])
 
-for (let i = [3]; i < user.purchased; i++) {
-    console.log(user.purchased);
-}
-for (let i = [3]; i < user.friend.purchased; i++) {
-    console.log(user.friend.purchased);
-}
+//for (let i = [3]; i < user.purchased; i++) {
+//   console.log(user.purchased);
+//}
+//for (let i = [3]; i < user.friend.purchased; i++) {
+//    console.log(user.friend.purchased);
+//}
 
-userUpdate = user
-user.age = user.age + 1
+//userUpdate = user
+//user.age = user.age + 1
 
-console.log(user)
-console.log(user.name.toUpperCase())
-console.log(user, name.upperCase)
+//console.log(user)
+//console.log(user.name.toUpperCase())
+//console.log(user, name.upperCase)
